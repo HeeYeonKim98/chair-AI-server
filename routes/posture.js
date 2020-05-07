@@ -3,6 +3,10 @@ const router = require("express").Router();
 router.post("/", (req, res) => {
   const { posture } = req.body;
 
+  console.log(req.body);
+  
+  console.log(posture);
+  
   if (posture == null) {
     res.status(400).json({
       success: false,
