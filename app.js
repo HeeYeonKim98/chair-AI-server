@@ -12,6 +12,6 @@ app.use("/", indexRouter);
 const postureRouter = require("./routes/posture");
 app.use("/posture", postureRouter);
 
-app.listen(9999, () => {
+app.listen(9001, () => {
   console.log("aiServer start");
 });
