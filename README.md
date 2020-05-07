@@ -1,0 +1,3 @@
+# chairAiServer
+
+$npm install
